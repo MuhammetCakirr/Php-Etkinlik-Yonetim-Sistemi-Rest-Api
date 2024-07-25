@@ -52,7 +52,7 @@ We have integrated Redis to improve API performance. Redis helps us reduce datab
 This API includes important components such as security, performance and data formatting for event management and managing user interactions in a modern and effective way. High performance with JWT authentication, data formatting with Laravel Resources, and Redis caching ensures the security and efficiency of the API.
 
 
-<img src="https://github.com/user-attachments/assets/da3106ec-00b6-44f8-b7bc-fa3cf8c436e3" width="800" alt="Laravel Logo">
+<img src="https://github.com/user-attachments/assets/da3106ec-00b6-44f8-b7bc-fa3cf8c436e3" >
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
