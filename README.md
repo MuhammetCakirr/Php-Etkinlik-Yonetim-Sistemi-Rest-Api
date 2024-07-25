@@ -32,18 +32,18 @@ This API has been developed to manage events and Decode interactions between use
     <li>
         1. JWT (JSON Web Token) <br>
         The reason I use JWT is to ensure the security of our API. JWT allows us to perform authentication and authorization processes for users to gain access to the API in a very secure way. Users are given a token when they log in, and they verify their identity every time they make a request to the API using this token. This system simplifies session management and allows us to perform authentication operations in a simple and secure way for every request made to the API. Thus, it prevents unauthorized people from accessing the API and improves the security of our system.
-    < / li>
+    </li>
     <li>2. Laravel Resources <br>
-We wanted to make our API responses more organized and understandable by using Laravel Resources. We preferred this structure in order to be able to present the data returned via the API, especially complex data structures such as events, comments and users, in a consistent format. For example, thanks to the EventResource class, we return all the necessary information about events, comments and participants in an appropriate format. This makes both the data structure and the API responses much more readable and understandable.< / li>
+We wanted to make our API responses more organized and understandable by using Laravel Resources. We preferred this structure in order to be able to present the data returned via the API, especially complex data structures such as events, comments and users, in a consistent format. For example, thanks to the EventResource class, we return all the necessary information about events, comments and participants in an appropriate format. This makes both the data structure and the API responses much more readable and understandable. </li>
     <li>3. Redis <br>
-We have integrated Redis to improve API performance. Redis helps us reduce database queries by caching frequently accessed data. In this way, it significantly reduces the access time to data and speeds up the API's response times. By storing frequently queried data, such as events, in Redis, we can get a quick response every time without making a query to the database. This in turn greatly improves the overall API performance and user experience.< / li>
+We have integrated Redis to improve API performance. Redis helps us reduce database queries by caching frequently accessed data. In this way, it significantly reduces the access time to data and speeds up the API's response times. By storing frequently queried data, such as events, in Redis, we can get a quick response every time without making a query to the database. This in turn greatly improves the overall API performance and user experience.</li>
 </ul>
 
 <h1>General Structure of the API</h1> 
 <ul>
-    <li> <b> Events (Events):</b> Listing, creation, updating and deletion of events can be performed. Each event is rotated with relevant comments and participants.< / li>
-    <li> <b>Comments (Comments): </b> Manages comments on events. Each comment is returned along with the relevant user information.< / li>
-    <li> <b>Participants:</b> Manages users who participate in events. Users can participate in events or leave events.< / li>
+    <li> <b> Events (Events):</b> Listing, creation, updating and deletion of events can be performed. Each event is rotated with relevant comments and participants.</li>
+    <li> <b>Comments (Comments): </b> Manages comments on events. Each comment is returned along with the relevant user information. </li>
+    <li> <b>Participants:</b> Manages users who participate in events. Users can participate in events or leave events.</li>
     
 </ul>
 
